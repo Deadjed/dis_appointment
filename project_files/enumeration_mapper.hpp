@@ -76,6 +76,6 @@ public:
 
     std::string return_string(int& index);
 
-    std::array<unsigned char, sizeof(double)> edit_pdu(size_t& location, pdu& pdu);
+    std::array<unsigned char, sizeof(double)> &edit_pdu(size_t& location, pdu& pdu);
     void edit_pdu(size_t& location, pdu& pdu, std::array<unsigned char, sizeof(double)>& value);
 };

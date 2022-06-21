@@ -119,7 +119,7 @@ public:
 
 	void get_packet(std::array<unsigned char, PACKET_SIZE>& buffer);
 
-	std::vector<unsigned char> return_packet();
+	std::vector<unsigned char> &return_packet();
 private:
 	void get_header(std::array<unsigned char, PACKET_SIZE>& buffer);
 	void get_entity_type(std::array<unsigned char, PACKET_SIZE>& buffer);

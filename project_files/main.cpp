@@ -121,7 +121,7 @@ int main()
                     // Flag value to check
                     std::getline(config_file, line);
                     enum_flag_val = std::stoi(line);
-                    std::cout << "\tEnumeration flag val: " << enum_flag_val << "\n";
+                    std::cout << "Enumeration flag val: " << enum_flag_val << "\n";
                     
                     flag_map.add_flag(enum_flag_name, enum_flag_val);
                     flag_mappings.push_back(flag_map);
@@ -142,7 +142,7 @@ int main()
                 // Value to change to
                 std::getline(config_file, line);
                 enum_name = std::stoi(line);
-                std::cout << "\tValue to change to: " << line << "\n";
+                std::cout << "Value to change to: " << line << "\n";
                 enumerations.add_value(line);
             }
             enumeration_mappings.push_back(enumerations);
@@ -176,14 +176,14 @@ int main()
     std::array<unsigned char, PACKET_SIZE> recv_buf{};
     std::vector<unsigned char> send_buf;
 
-    // Create PDU variable
-    pdu packet;
-    std::array<unsigned char, sizeof(double)> packet_temp;  // variable to hold original packet values
-    std::vector< std::array<unsigned char, sizeof(double)>> original_values;
-
     // Logic loop
     while (true)
     {
+        // Create PDU variable
+        pdu packet;
+        std::array<unsigned char, sizeof(double)> packet_temp;  // variable to temporarily hold original packet values
+        std::vector< std::array<unsigned char, sizeof(double)>> original_values; // variable to hold original packet values
+
         // Get buffer from OS
         input_socket.receive_from(
             boost::asio::buffer(recv_buf), endpoint);

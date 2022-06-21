@@ -56,7 +56,7 @@ void pdu::get_packet(std::array<unsigned char, PACKET_SIZE>& buffer)
 	get_articulation_parameters(buffer);
 }
 
-std::vector<unsigned char> pdu::return_packet()
+std::vector<unsigned char> &pdu::return_packet()
 {
 	std::vector<unsigned char> packet;
 	std::array<unsigned char, sizeof(double)> buf;

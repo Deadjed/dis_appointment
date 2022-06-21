@@ -328,7 +328,7 @@ std::string enumeration_map::return_string(int& index)
     }
 }
 
-std::array<unsigned char, sizeof(double)> enumeration_map::edit_pdu(size_t& location, pdu& pdu)
+std::array<unsigned char, sizeof(double)> &enumeration_map::edit_pdu(size_t& location, pdu& pdu)
 {
     std::array<unsigned char, sizeof(double)> temp{ '0' };
 
