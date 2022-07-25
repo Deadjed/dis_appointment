@@ -1,32 +1,32 @@
 --------------------------
 # DIS APPOINTMENT V0.3
-BETA
+BETA   
 --------------------------
-Routes Distributed Interactive Simulation [DIS](https://en.wikipedia.org/wiki/Distributed_Interactive_Simulation) traffic over different network ports.
-
+Routes Distributed Interactive Simulation [DIS](https://en.wikipedia.org/wiki/Distributed_Interactive_Simulation) traffic over different network ports.   
+   
 --------------------------
 ## Notes
 --------------------------
-Currently only reads Entity State PDUs
-Currently only manipulates INT values
-
-TODO
--Add if statements when grabbing stream to check header for type of PDU, this should enable usage of other PDU types
--Clean up config read method/file to be more user friendly (csv or xml)
--Add manipulation functionality to all data types within PDU while maintaining ability to store them back in buffer to send back over network without altering size
-Use DIS data [dictionary](http://faculty.nps.edu/brutzman/vrtp/mil/navy/nps/disEnumerations/JdbeHtmlFiles/dis-dd.html) for reference
+Currently only reads Entity State PDUs   
+Currently only manipulates INT values   
+   
+TODO   
+-Add if statements when grabbing stream to check header for type of PDU, this should enable usage of other PDU types   
+-Clean up config read method/file to be more user friendly (csv or xml)   
+-Add manipulation functionality to all data types within PDU while maintaining ability to store them back in buffer to send back over network without altering size   
+Use DIS data [dictionary](http://faculty.nps.edu/brutzman/vrtp/mil/navy/nps/disEnumerations/JdbeHtmlFiles/dis-dd.html) for reference   
 
 --------------------------
 ## Instructions
 --------------------------
 ### Initialize
-first line: 	listening port (int eg:3000)   
-second line: 	number of sending addresses (int eg:2)   
+First line: 	listening port (int eg:3000)   
+Second line: 	number of sending addresses (int eg:2)   
    
 ### Set up send addresses
 For each address   
 First line: 	port number (int eg:3001)   
-Aecond line: 	ip address (string eg:192.168.0.255)   
+Second line: 	ip address (string eg:192.168.0.255)   
 Third line:	number of enumerations to change (int)   
 If third line > 0   
 	Fourth line:	How many flags to check (INT)   
