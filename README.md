@@ -20,24 +20,24 @@ Use DIS data [dictionary](http://faculty.nps.edu/brutzman/vrtp/mil/navy/nps/disE
 ## Instructions
 --------------------------
 ### Initialize
-first line: 	listening port (int eg:3000)
-second line: 	number of sending addresses (int eg:2)
-
+first line: 	listening port (int eg:3000)   
+second line: 	number of sending addresses (int eg:2)   
+   
 ### Set up send addresses
-For each address
-First line: 	port number (int eg:3001)
-Aecond line: 	ip address (string eg:192.168.0.255)
-Third line:	number of enumerations to change (int)
-If third line > 0
-	Fourth line:	How many flags to check (INT)
-	If fourth line > 0
-		Fifth line: 	enumeration flag name to check (Enumeration list below with value to left)
-		Sixth line:	enumeration flag value to check
-		etc.. repeat for each flag
-	~Seventh line: 	enumeration to change
-	~Eightth line:	value to change to
-	etc.. repeat for each port
-
+For each address   
+First line: 	port number (int eg:3001)   
+Aecond line: 	ip address (string eg:192.168.0.255)   
+Third line:	number of enumerations to change (int)   
+If third line > 0   
+	Fourth line:	How many flags to check (INT)   
+	If fourth line > 0   
+		Fifth line: 	enumeration flag name to check (Enumeration list below with value to left)   
+		Sixth line:	enumeration flag value to check   
+		etc.. repeat for each flag   
+	~Seventh line: 	enumeration to change   
+	~Eightth line:	value to change to   
+	etc.. repeat for each port   
+   
 ### Enumerations list
 0    No_change,    
 1    Protocol_Version,		// 8    
