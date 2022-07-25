@@ -39,58 +39,58 @@ If third line > 0
 	etc.. repeat for each port
 
 ### Enumerations list
-0    No_change,
-1    Protocol_Version,		// 8 
-2    Exercise_Identifier,	// 8 
-3    PDU_Type,			    // 8
-4    Protocol_Family,		// 8
-5    Time_Stamp,		// 32
-6    PDU_Length,		// 16
-7    Padding,			// 16
-8    Site_Identifier,		    // 16
-9    Application_Identifier, 	// 16
-10    Entity_Identity,		    // 16
+0    No_change,    
+1    Protocol_Version,		// 8    
+2    Exercise_Identifier,	// 8    
+3    PDU_Type,			    // 8   
+4    Protocol_Family,		// 8   
+5    Time_Stamp,		// 32   
+6    PDU_Length,		// 16   
+7    Padding,			// 16   
+8    Site_Identifier,		// 16      
+9    Application_Identifier, 	// 16     
+10    Entity_Identity,		// 16   
 11    Force_ID,			// 8
-12    no_Articulation_Parameters,	// 8
-13    Kind,		    // 8
-14    Domain,		// 8
-15    Country,		// 16
-16    Category,		// 8
-17    Subcategory,	// 8
-18    Specific,		// 8
-19    Extra,		// 8
-20    Kind_alt,		// 8
-21    Domain_alt,	// 8
-22    Country_alt,	// 16
-23    Category_alt,	// 8
-24    Subcategory_alt,	// 8
-25    Specific_alt,	// 8
-26    Extra_alt,	// 8
-27    LV_First_Vector_Component,	// 32
-28    LV_Second_Vector_Component,	// 32
-29    LV_Third_Vector_Component,	// 32
-30    Entity_x,	// 64
-31    Entity_y,	// 64
-32    Entity_z,	// 64
-33    PSI,	    // 32
-34    THETA,	// 32
-35    PHI,	    // 32
-36    General_Appearance,	    // 16
-37    Appearance_Variant,       // 16
-38    Dead_Reckoning_Algorithm,	// 8 ENUMERATION
-39    LA_First_Vector,	// 32
-40    LA_Second_Vector,	// 32
-41    LA_Third_Vector,	// 32
-42    Rate_About_X,		// 32
-43    Rate_About_Y,		// 32
-44    Rate_About_Z,		// 32
-45    Entity_Marking_Character_Set,	// 8 ENUMERATION
-46    Marking,			    // 88
-47    Entity_Capabilities,	// 8
-48    Parameter_Type_Designator,	// 8
-49    Parameter_Change_Indicator,	// 8
-50    Articulation_Attachment_ID,	// 16
-51    Attached_Parts,			    // 32 ENUMERATION
-52    Articulated_Parts_Low,		// 16 BITFIELD
-53    Articulated_Parts_High,		// 16 BITFIELD
-54    Articulation_Parameter_Value	// 64
+12    no_Articulation_Parameters,	// 8   
+13    Kind,		// 8   
+14    Domain,		// 8    
+15    Country,		// 16   
+16    Category,		// 8   
+17    Subcategory,	// 8   
+18    Specific,		// 8   
+19    Extra,		// 8   
+20    Kind_alt,		// 8   
+21    Domain_alt,	// 8   
+22    Country_alt,	// 16   
+23    Category_alt,	// 8   
+24    Subcategory_alt,	// 8   
+25    Specific_alt,	// 8   
+26    Extra_alt,	// 8   
+27    LV_First_Vector_Component,	// 32   
+28    LV_Second_Vector_Component,	// 32   
+29    LV_Third_Vector_Component,	// 32   
+30    Entity_x,	// 64   
+31    Entity_y,	// 64   
+32    Entity_z,	// 64   
+33    PSI,	    // 32   
+34    THETA,	// 32   
+35    PHI,	    // 32   
+36    General_Appearance,	    // 16   
+37    Appearance_Variant,       // 16   
+38    Dead_Reckoning_Algorithm,	// 8 ENUMERATION   
+39    LA_First_Vector,	// 32   
+40    LA_Second_Vector,	// 32   
+41    LA_Third_Vector,	// 32   
+42    Rate_About_X,		// 32   
+43    Rate_About_Y,		// 32   
+44    Rate_About_Z,		// 32   
+45    Entity_Marking_Character_Set,	// 8 ENUMERATION   
+46    Marking,			    // 88   
+47    Entity_Capabilities,	// 8   
+48    Parameter_Type_Designator,	// 8   
+49    Parameter_Change_Indicator,	// 8   
+50    Articulation_Attachment_ID,	// 16   
+51    Attached_Parts,			    // 32 ENUMERATION   
+52    Articulated_Parts_Low,		// 16 BITFIELD   
+53    Articulated_Parts_High,		// 16 BITFIELD   
+54    Articulation_Parameter_Value	// 64   
