@@ -1,12 +1,11 @@
---------------------------
+
 # DIS APPOINTMENT V0.3
 BETA   
---------------------------
+
 Routes Distributed Interactive Simulation [DIS](https://en.wikipedia.org/wiki/Distributed_Interactive_Simulation) traffic over different network ports.   
    
---------------------------
+
 ## Notes
---------------------------
 Currently only reads Entity State PDUs   
 Currently only manipulates INT values   
    
@@ -16,9 +15,7 @@ TODO
 -Add manipulation functionality to all data types within PDU while maintaining ability to store them back in buffer to send back over network without altering size   
 Use DIS data [dictionary](http://faculty.nps.edu/brutzman/vrtp/mil/navy/nps/disEnumerations/JdbeHtmlFiles/dis-dd.html) for reference   
 
---------------------------
 ## Instructions
---------------------------
 ### Initialize
 First line: 	listening port (int eg:3000)   
 Second line: 	number of sending addresses (int eg:2)   
