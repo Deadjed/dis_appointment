@@ -2,7 +2,7 @@
 # DIS APPOINTMENT V0.3
 BETA   
 
-Routes Distributed Interactive Simulation [DIS](https://en.wikipedia.org/wiki/Distributed_Interactive_Simulation) traffic over different network ports.   
+Routes Distributed Interactive Simulation [DIS](https://en.wikipedia.org/wiki/Distributed_Interactive_Simulation) traffic over different network ports with the option to alter mappings of PDU's that meet custom criteria to facilitate different simulations applications that may have units mapped differently. 
    
 
 ## Notes
