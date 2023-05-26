@@ -6,6 +6,8 @@ Routes Distributed Interactive Simulation [DIS](https://en.wikipedia.org/wiki/Di
    
 
 ## Notes
+**THIS CODE SUCKS
+Please do not take this as an example of work I would consider good, it needs a lot of work to be modularized so I can perform unit testing on each component and re build it in a way that promotes a more comfortable environment to build upon.**
 Currently only reads Entity State PDUs   
 Currently only manipulates INT values   
    
